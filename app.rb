@@ -4,8 +4,8 @@ also_reload('lib/**/*.rb')
 require('./lib/title_case')
 require('pry')
 
-get('/form') do
-  erb(:form)
+get('/') do
+  erb(:index)
 end
 
 get('/title') do
